@@ -14,4 +14,8 @@ const left = middle.food
 console.log(left)
 
 const obj = Proxy
+
+const obj2 = Proxy.revocable(target, handler)
+// obj2.revoke()
+
 debugger
